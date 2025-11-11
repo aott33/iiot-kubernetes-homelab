@@ -102,9 +102,9 @@ graph TB
 
 | Component | Specifications | Role | Approx. Cost (CAD) |
 |-----------|---------------|------|--------------------|
-| **Fitlet 3** | Intel Atom x6425E, 8GB RAM, 500GB NVMe | OPNsense Router/Firewall | ~$400 |
+| **Fitlet 3** | Intel Atom x6425E, 8GB RAM, 500GB NVMe | OPNsense Router/Firewall | Owned |
 | **Cisco CBS220-16T-2G** | 16-port managed switch | VLAN switching | $171 |
-| **Netgear Orbi RBK13** | Mesh WiFi (RBR10 + 2x RBS10) | WiFi Access Points | ~$150 |
+| **Netgear Orbi RBK13** | Mesh WiFi (RBR10 + 2x RBS10) | WiFi Access Points | Owned |
 
 ### Compute Nodes
 
@@ -135,9 +135,9 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 ### Protocols & Integration
 - **Modbus TCP/RTU** - Industrial device communication
 - **MQTT** (v3.1.1 / v5.0) - Message broker
+  - **Sparkplug B** Communication framework built on top of MQTT 
 - **OPC UA** - Industrial interoperability
 - **HTTP/REST** - API communication
-- **gRPC** - High-performance RPC
 
 ### Backend Development
 - **Go** (1.21+) - Microservice development
@@ -174,10 +174,11 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 
 ## Blog Series
 
-Follow the weekly build series documenting the journey:
+Follow the weekly build series documenting the journey at [aott33.github.io](https://aott33.github.io):
 
 **Published Posts:**
-- Coming soon at [aott33.github.io](https://aott33.github.io)
+- [Laying the Foundation - Homelab - Week 1](https://aott33.github.io/2025/11/10/week-01-router-config.html)
+- [What the Heck are VLANs? - Homelab - Week 2](url) IN PROGRESS
 
 **Topics Covered:**
 - Week 1: OPNsense Router Setup
