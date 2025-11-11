@@ -98,7 +98,7 @@ graph TB
 
 ## Hardware
 
-**Total Cost:** ~$900 CAD
+**Total Cost:** ~$600 CAD
 
 ### Core Infrastructure
 

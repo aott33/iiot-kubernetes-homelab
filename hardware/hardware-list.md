@@ -1,6 +1,6 @@
 # Hardware Inventory
 
-**Total Project Cost:** ~$900 CAD
+**Total Project Cost:** ~$600 CAD (~$1,500 CAD including future improvements)
 
 ---
 
@@ -24,7 +24,7 @@
 - **Operating System:** OPNsense CE (latest)
 - **Power:** 12V DC, low power consumption (~10W idle)
 
-**Approximate Cost:** $400 CAD
+**Approximate Cost:** Already owned
 
 **Network Configuration:**
 - **WAN Interface (em0):** ISP connection via DHCP
@@ -80,7 +80,7 @@
 - **Security:** WPA2-PSK, WPA3 (on newer firmware)
 - **Mode:** Access Point (AP) mode (not router mode)
 
-**Approximate Cost:** $150 CAD (used/refurbished)
+**Approximate Cost:** Already owned
 
 **Network Configuration:**
 - **Mode:** AP Mode (bridged to OPNsense LAN)
@@ -228,10 +228,10 @@
 
 | Category | Cost (CAD) |
 |----------|------------|
-| **Network Infrastructure** | $764 |
-| - Fitlet3 (OPNsense) | $400 |
+| **Network Infrastructure** | $214 |
+| - Fitlet3 (OPNsense) | Owned |
 | - Cisco CBS220 Switch | $171 |
-| - Netgear Orbi Mesh WiFi | $150 |
+| - Netgear Orbi Mesh WiFi | Owned |
 | - Cables | $43 |
 | **Compute Nodes** | $230 |
 | - Raspberry Pi Cluster (2x) | $230 |
@@ -240,9 +240,7 @@
 | - OnLogic FR201 | Owned |
 | **Rack & Accessories** | $140 |
 | - Server Rack | $140 |
-| **Total** | **~$1,134** |
-
-**Note:** Total exceeds $900 estimate due to including all hardware. Core new purchases for this project were ~$900 CAD.
+| **Total** | **~$584** |
 
 ---
 
