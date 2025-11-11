@@ -1,0 +1,5 @@
+# Custom Go services
+#
+# This directory contains custom-developed microservices:
+# - homelab-status: Status dashboard aggregating platform health
+# - (Future services as developed)

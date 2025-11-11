@@ -1,0 +1,100 @@
+# IIoT Kubernetes Homelab - .gitignore
+
+# Secrets and sensitive data
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secret
+.env
+.env.*
+!.env.example
+
+# Kubernetes secrets (if accidentally placed here)
+*-secret.yaml
+*-secrets.yaml
+
+# Terraform state files (if used)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Helm
+charts/*.tgz
+.helm/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if any frontend tools)
+node_modules/
+npm-debug.log*
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Docker
+*.dockerignore
+
+# Personal notes (keep in private repo)
+NOTES.md
+TODO.md
+scratch/
+
+# Generated documentation
+site/
+
+# Ignition project backups (if stored here)
+*.zip
+backups/
+
+# Database dumps
+*.sql
+*.db
+*.sqlite
+
+# Ignore large binary files
+*.iso
+*.img
+*.bin

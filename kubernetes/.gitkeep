@@ -1,0 +1,8 @@
+# Kubernetes manifests and Helm values
+#
+# This directory contains Kubernetes deployment configurations for:
+# - Base infrastructure (MetalLB, Longhorn, ingress)
+# - United Manufacturing Hub (UMH)
+# - EdgeX Foundry
+# - Ignition SCADA
+# - Monitoring (Prometheus, Grafana)
