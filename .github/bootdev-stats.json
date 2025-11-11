@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "label": "Boot.dev",
+  "message": "13/31 (41%)",
+  "color": "blue",
+  "lastUpdated": "2025-11-11T00:17:16.635272",
+  "profile": {
+    "username": "aott33",
+    "level": 87,
+    "xp": 331679,
+    "role": "Archsage"
+  },
+  "progress": {
+    "coursesCompleted": 13,
+    "coursesTotal": 31,
+    "percentageComplete": 41,
+    "nextCourse": "Learn Golang"
+  }
+}

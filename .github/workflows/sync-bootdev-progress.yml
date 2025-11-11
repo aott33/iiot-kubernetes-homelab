@@ -1,0 +1,66 @@
+name: Sync Boot.dev Progress
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions tab
+
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/sync-bootdev-progress.yml'
+      - '.github/scripts/sync_bootdev.py'
+
+jobs:
+  sync-progress:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Fetch Boot.dev progress
+        env:
+          BOOTDEV_USERNAME: aott33
+        run: |
+          python .github/scripts/sync_bootdev.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet docs/progress/bootdev-progress.md .github/bootdev-stats.json README.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/progress/bootdev-progress.md .github/bootdev-stats.json README.md
+          git commit -m "Auto-sync: Update Boot.dev progress"
+          git push
+
+      - name: No changes detected
+        if: steps.check_changes.outputs.changed == 'false'
+        run: |
+          echo "No progress changes detected. Skipping commit."

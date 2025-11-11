@@ -5,6 +5,8 @@
 [![Kubernetes](https://img.shields.io/badge/kubernetes-v1.28-blue.svg)](https://kubernetes.io/)
 [![EdgeX](https://img.shields.io/badge/EdgeX-4.0-green.svg)](https://github.com/edgexfoundry/edgex-go)
 [![UMH](https://img.shields.io/badge/UMH-0.43.8-green.svg)](https://github.com/united-manufacturing-hub/united-manufacturing-hub)
+[![Boot.dev Level](https://img.shields.io/badge/Boot.dev-Level%2087-blueviolet)](https://boot.dev/)
+[![Boot.dev Courses](https://img.shields.io/badge/Courses-13%2F31%20(41%25)-blue)](docs/progress/bootdev-progress.md)
 
 ---
 
@@ -224,7 +226,7 @@ iiot-kubernetes-homelab/
 - [Tailscale Documentation](https://tailscale.com/kb/)
 
 ### Learning Resources
-- [Boot.dev](https://boot.dev/) - Go programming path
+- [Boot.dev](https://boot.dev/) - Backend Developer Pathway (Python and Golang)
 - [ISA 101 HMI Standards](https://www.isa.org/)
 - [Kubernetes Patterns](https://kubernetes.io/docs/concepts/)
 
