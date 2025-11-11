@@ -6,25 +6,25 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 
 <!-- AUTO_UPDATE_START -->
 **Last Updated:** 2025-11-11
-**Level:** 87 | **Total XP:** 331,679 | **Role:** Archsage
+**Level:** 87 | **Total XP:** 332,447 | **Role:** Archsage
 
 ### Track Progress: 41% Complete
 **Completed:** 13/31 courses
 
 ### Course Checklist
 
-- [x] **Learn Coding Basics**
-- [x] **Learn Linux**
-- [x] **Learn Git**
-- [x] **Build a Bookbot**
-- [x] **Learn Object Oriented Programming**
-- [x] **Build an Asteroids Game**
-- [x] **Learn Functional Programming**
-- [x] **Build an AI Agent**
-- [x] **Learn Data Structures and Algorithms**
-- [x] **Build a Static Site Generator**
-- [x] **Learn Memory Management**
-- [x] **Personal Project 1**
+- [x] **Learn Coding Basics** (179 lessons, 8,000 XP) - Completed 2023-11-22
+- [x] **Learn Linux** (66 lessons, 4,000 XP) - Completed 2025-08-29
+- [x] **Learn Git** (75 lessons, 5,000 XP) - Completed 2025-08-30
+- [x] **Build a Bookbot** (15 lessons, 3,000 XP) - Completed 2023-11-25
+- [x] **Learn Object Oriented Programming** (61 lessons, 5,000 XP) - Completed 2023-11-23
+- [x] **Build an Asteroids Game** (19 lessons, 4,000 XP) - Completed 2025-09-01
+- [x] **Learn Functional Programming** (88 lessons, 7,000 XP) - Completed 2023-11-29
+- [x] **Build an AI Agent** (18 lessons, 4,000 XP) - Completed 2025-09-03
+- [x] **Learn Data Structures and Algorithms** (175 lessons, 11,000 XP) - Completed 2023-12-12
+- [x] **Build a Static Site Generator** (28 lessons, 6,000 XP) - Completed 2025-09-11
+- [x] **Learn Memory Management** (101 lessons, 5,000 XP) - Completed 2025-11-06
+- [x] **Personal Project 1** (4 lessons, 5,000 XP) - Completed 2025-10-14
 - [ ] **Learn Golang**
 - [ ] **Learn HTTP Clients**
 - [ ] **Build a Pokedex**
