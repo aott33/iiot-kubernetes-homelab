@@ -37,23 +37,45 @@ This homelab replicates a real industrial IoT deployment architecture, combining
 
 ### High-Level Overview
 
-```
-                           Internet
-                              ↓
-                    OPNsense Router (Fitlet 3)
-                              ↓
-                      Managed Switch (Cisco CBS220)
-                              ↓
-        ┌─────────────────────┴─────────────────────┐
-        ↓                     ↓                     ↓
-     OT VLAN               IT VLAN            Management VLAN
-(192.168.10.0/24)     (192.168.20.0/24)      (192.168.99.0/24)
-        │                     │                     │
-   ┌────┴────┐           ┌────┴────┐           ┌────┴────┐
-   │         │           │         │           │         │
-Raspberry  OnLogic     DIY PC   Work PC      Switch     UPS
-  Pis      FR201       (K3s)    (Dev)        Mgmt    Monitoring
-(Sensors) (EdgeX)     (Master) (Worker)
+```mermaid
+graph TB
+    Internet((Internet))
+    OPN[OPNsense Router<br/>Fitlet 3]
+    Switch[Cisco CBS220<br/>Managed Switch]
+
+    subgraph VLAN10["<b>VLAN 10 - OT Network</b><br/>(192.168.10.0/24) - AIR-GAPPED<br/> "]
+        spacer1[ ]
+        RaspberryPis[Raspberry Pis<br/>Sensors]
+        FR201[OnLogic FR201<br/>EdgeX Gateway]
+    end
+
+    subgraph VLAN20["<b>VLAN 20 - IT Network</b><br/>(192.168.20.0/24) - INTERNET ACCESS<br/> "]
+        spacer2[ ]
+        GamingPC[DIY Gaming PC<br/>K3s Control Plane]
+        WorkPC[MSI Work PC<br/>K3s Worker + Dev]
+    end
+
+    subgraph VLAN99["<b>VLAN 99 - Management</b><br/>(192.168.99.0/24) - ADMIN ONLY<br/> "]
+        spacer3[ ]
+        SwitchMgmt[Switch Management]
+        UPS[UPS Monitoring]
+    end
+
+    Internet --> OPN
+    OPN -->|VLAN Trunk| Switch
+    Switch -.-> VLAN10
+    Switch -.-> VLAN20
+    Switch -.-> VLAN99
+
+    style Internet fill:#ffeb3b,stroke:#333,stroke-width:2px
+    style OPN fill:#f44336,color:#fff,stroke:#333,stroke-width:2px
+    style Switch fill:#f44336,color:#fff,stroke:#333,stroke-width:2px
+    style VLAN10 fill:#ffcdd2,stroke:#333,stroke-width:2px,color:#000
+    style VLAN20 fill:#c5e1a5,stroke:#333,stroke-width:2px,color:#000
+    style VLAN99 fill:#e0e0e0,stroke:#333,stroke-width:2px,color:#000
+    style spacer1 fill:none,stroke:none
+    style spacer2 fill:none,stroke:none
+    style spacer3 fill:none,stroke:none
 ```
 
 ### Network Segmentation
@@ -142,7 +164,7 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 - [x] OPNsense WAN connectivity
 - [x] Orbi WiFi mesh in AP mode
 - [x] VLAN segmentation (OT/IT/Management)
-- [x] Cisco switch configuration
+- [ ] Cisco switch configuration
 - [ ] K3s control plane setup
 - [ ] K3s worker nodes joined
 - [ ] Longhorn storage deployment
@@ -226,57 +248,10 @@ cat hardware/network-topology.md       # Network design
 cat docs/architecture.md               # System architecture
 ```
 
-### Repository Workflow
-
-**This is the public showcase repository.** For planning and blog drafts, use the private `iiot-homelab` repository.
-
-**What goes here:**
-- ✅ Kubernetes manifests and Helm values
-- ✅ Custom Go service code
-- ✅ Utility scripts
-- ✅ Technical documentation
-- ✅ Links to published blog posts
-
-**What stays in private repo:**
-- ❌ PRD and detailed planning
-- ❌ Blog drafts and writing workflow
-- ❌ Personal progress tracking
-- ❌ Purchase dates and personal notes
-
-### Contributing Code
-
-As the project progresses, Kubernetes manifests and Go services will be added:
-
-```bash
-# Example: Adding Kubernetes manifests
-cd kubernetes/umh
-# Create values.yaml for UMH Helm chart
-git add values.yaml
-git commit -m "feat: Add UMH Helm values for TimescaleDB and Grafana"
-git push
-```
-
-### Updating Progress
-
-Update the **Project Progress** table in this README as phases complete:
-
-| Phase | Status | Description |
-|-------|--------|-------------|
-| **Phase 1** | ✅ Complete | ... |
-| **Phase 2** | 🔄 In Progress | ... |
-
-**Status Icons:** ✅ Complete | 🔄 In Progress | ⏸️ Planned | ❌ Blocked
-
----
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details
-
 ---
 
 **Built by:** Andrew Ott
 **Purpose:** Demonstrating cloud-native backend engineering skills with industrial IoT domain expertise
 **Status:** Active Development (Week 2 of 16)
 
-For questions or collaboration, connect via [GitHub](https://github.com/aott33) or [LinkedIn](https://linkedin.com/in/yourprofile)
+For questions or collaboration, connect via [GitHub](https://github.com/aott33) or [LinkedIn](https://www.linkedin.com/in/andrewott33/)
