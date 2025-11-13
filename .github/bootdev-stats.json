@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "13/31 (41%)",
+  "message": "14/31 (45%)",
   "color": "blue",
-  "lastUpdated": "2025-11-12T00:12:35.628861",
+  "lastUpdated": "2025-11-13T00:12:44.797288",
   "profile": {
     "username": "aott33",
-    "level": 88,
-    "xp": 337446,
-    "role": "Archsage"
+    "level": 90,
+    "xp": 353535,
+    "role": "Mage"
   },
   "progress": {
-    "coursesCompleted": 13,
+    "coursesCompleted": 14,
     "coursesTotal": 31,
-    "percentageComplete": 41,
-    "nextCourse": "Learn Golang"
+    "percentageComplete": 45,
+    "nextCourse": "Learn HTTP Clients"
   }
 }
