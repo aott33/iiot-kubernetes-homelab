@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "14/31 (45%)",
+  "message": "15/31 (48%)",
   "color": "blue",
-  "lastUpdated": "2025-11-16T00:13:41.546445",
+  "lastUpdated": "2025-11-17T00:13:07.065504",
   "profile": {
     "username": "aott33",
-    "level": 91,
-    "xp": 357764,
+    "level": 92,
+    "xp": 364212,
     "role": "Mage"
   },
   "progress": {
-    "coursesCompleted": 14,
+    "coursesCompleted": 15,
     "coursesTotal": 31,
-    "percentageComplete": 45,
-    "nextCourse": "Learn HTTP Clients"
+    "percentageComplete": 48,
+    "nextCourse": "Build a Pokedex"
   }
 }
