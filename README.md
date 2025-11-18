@@ -45,19 +45,19 @@ graph TB
     OPN[OPNsense Router<br/>Fitlet 3]
     Switch[Cisco CBS220<br/>Managed Switch]
 
-    subgraph VLAN10["<b>VLAN 10 - OT Network</b><br/>(192.168.10.0/24) - AIR-GAPPED<br/> "]
+    subgraph VLAN10["<b>VLAN 10 - OT Network</b><br/>(192.168.10.0/24)<br/>AIR-GAPPED<br/> "]
         spacer1[ ]
         RaspberryPis[Raspberry Pis<br/>Sensors]
         FR201[OnLogic FR201<br/>EdgeX Gateway]
     end
 
-    subgraph VLAN20["<b>VLAN 20 - IT Network</b><br/>(192.168.20.0/24) - INTERNET ACCESS<br/> "]
+    subgraph VLAN20["<b>VLAN 20 - IT Network</b><br/>(192.168.20.0/24)<br/>INTERNET ACCESS<br/> "]
         spacer2[ ]
         GamingPC[DIY Gaming PC<br/>K3s Control Plane]
         WorkPC[MSI Work PC<br/>K3s Worker + Dev]
     end
 
-    subgraph VLAN99["<b>VLAN 99 - Management</b><br/>(192.168.99.0/24) - ADMIN ONLY<br/> "]
+    subgraph VLAN99["<b>VLAN 99 - Management</b><br/>(192.168.99.0/24)<br/>ADMIN ONLY<br/> "]
         spacer3[ ]
         SwitchMgmt[Switch Management]
         UPS[UPS Monitoring]
