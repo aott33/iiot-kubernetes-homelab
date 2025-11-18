@@ -166,7 +166,7 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 - [x] OPNsense WAN connectivity
 - [x] Orbi WiFi mesh in AP mode
 - [x] VLAN segmentation (OT/IT/Management)
-- [ ] Cisco switch configuration
+- [x] Cisco switch configuration
 - [ ] K3s control plane setup
 - [ ] K3s worker nodes joined
 - [ ] Longhorn storage deployment
@@ -180,7 +180,7 @@ Follow the weekly build series documenting the journey at [aott33.github.io](htt
 
 **Published Posts:**
 - [Laying the Foundation - Homelab - Week 1](https://aott33.github.io/2025/11/10/week-01-router-config.html)
-- [What the Heck are VLANs? - Homelab - Week 2](url) IN PROGRESS
+- [What the Heck are VLANs? - Homelab - Week 2](https://aott33.github.io/2025/11/17week-02-switch-config.html)
 
 **Topics Covered:**
 - Week 1: OPNsense Router Setup
