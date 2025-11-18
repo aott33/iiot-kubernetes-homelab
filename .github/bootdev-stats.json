@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "13/31 (41%)",
+  "message": "15/31 (48%)",
   "color": "blue",
-  "lastUpdated": "2025-11-11T19:04:22.256820",
+  "lastUpdated": "2025-11-18T00:12:59.824192",
   "profile": {
     "username": "aott33",
-    "level": 87,
-    "xp": 332447,
-    "role": "Archsage"
+    "level": 92,
+    "xp": 364644,
+    "role": "Mage"
   },
   "progress": {
-    "coursesCompleted": 13,
+    "coursesCompleted": 15,
     "coursesTotal": 31,
-    "percentageComplete": 41,
-    "nextCourse": "Learn Golang"
+    "percentageComplete": 48,
+    "nextCourse": "Build a Pokedex"
   }
 }
