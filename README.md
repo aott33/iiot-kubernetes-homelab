@@ -14,6 +14,8 @@
 
 This homelab replicates a real industrial IoT deployment architecture, combining cloud-native technologies with industrial automation platforms. The project demonstrates hands-on expertise in Kubernetes orchestration, IIoT data platforms, and OT/IT network segmentation.
 
+![week-2-server_rack](https://github.com/user-attachments/assets/b38485d0-45b8-4e0e-800f-b7cff9e5fb96)
+
 ### Goals
 
 - **Learn Kubernetes & Docker** in a production-like environment
