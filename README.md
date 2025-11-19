@@ -152,14 +152,14 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 
 | Phase | Status | Description |
 |-------|--------|-------------|
-| **Phase 0: Hardware Prep** | ✅ Complete | Hardware acquired and assembled |
-| **Phase 1: Network Foundation** | 🔄 In Progress | OPNsense + VLANs configured |
-| **Phase 2: Kubernetes Cluster** | 🔄 In Progress | K3s deployment |
-| **Phase 3: Storage & LoadBalancing** | ⏸️ Planned | Longhorn + MetalLB |
-| **Phase 4: UMH Deployment** | ⏸️ Planned | MQTT, Kafka, TimescaleDB, Grafana |
-| **Phase 5: EdgeX Gateway** | ⏸️ Planned | Edge data collection |
-| **Phase 6: Edge Devices** | ⏸️ Planned | Raspberry Pi sensors |
-| **Phase 7: Ignition & Remote Access** | ⏸️ Planned | SCADA HMI + Tailscale VPN |
+| **Phase 0: Hardware Prep** | Complete | Hardware acquired and assembled |
+| **Phase 1: Network Foundation** | Complete | OPNsense + VLANs configured |
+| **Phase 2: Kubernetes Cluster** | In Progress | K3s deployment |
+| **Phase 3: Storage & LoadBalancing** | Planned | Longhorn + MetalLB |
+| **Phase 4: UMH Deployment** | Planned | MQTT, Kafka, TimescaleDB, Grafana |
+| **Phase 5: EdgeX Gateway** | Planned | Edge data collection |
+| **Phase 6: Edge Devices** | Planned | Raspberry Pi sensors |
+| **Phase 7: Ignition & Remote Access** | Planned | SCADA HMI + Tailscale VPN |
 
 ### Current Milestones
 
