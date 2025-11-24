@@ -169,6 +169,7 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 - [x] Orbi WiFi mesh in AP mode
 - [x] VLAN segmentation (OT/IT/Management)
 - [x] Cisco switch configuration
+- [x] Arch Linux installed on Business PC
 - [ ] K3s control plane setup
 - [ ] K3s worker nodes joined
 - [ ] Longhorn storage deployment
@@ -181,8 +182,9 @@ See [hardware/hardware-list.md](hardware/hardware-list.md) for detailed specific
 Follow the weekly build series documenting the journey at [aott33.github.io](https://aott33.github.io):
 
 **Published Posts:**
-- [Laying the Foundation - Homelab - Week 1](https://aott33.github.io/2025/11/10/week-01-router-config.html)
-- [What the Heck are VLANs? - Homelab - Week 2](https://aott33.github.io/2025/11/17week-02-switch-config.html)
+- [Laying the Foundation - Homelab - Week 1](https://aott33.github.io/posts/week-01-router-config/)
+- [What the Heck are VLANs? - Homelab - Week 2](https://aott33.github.io/posts/week-02-switch-config/)
+- [Arch Linux Install: What Could Go Wrong? - Homelab - Week 3](https://aott33.github.io/posts/week-03-arch-linux-install/)
 
 **Topics Covered:**
 - Week 1: OPNsense Router Setup
