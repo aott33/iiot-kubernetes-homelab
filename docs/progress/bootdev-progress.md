@@ -6,10 +6,10 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 
 <!-- AUTO_UPDATE_START -->
 **Last Updated:** 2025-11-25
-**Level:** 95 | **Total XP:** 388,142 | **Role:** Mage
+**Level:** 96 | **Total XP:** 400,999 | **Role:** Mage
 
-### Track Progress: 51% Complete
-**Completed:** 16/31 courses
+### Track Progress: 54% Complete
+**Completed:** 17/31 courses
 
 ### Course Checklist
 
@@ -32,7 +32,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [ ] **Build a Blog Aggregator**
 - [ ] **Learn HTTP Servers**
 - [ ] **Learn File Storage and CDNs**
-- [ ] **Learn Docker**
+- [x] **Learn Docker** (43 lessons, 4,000 XP) - Completed 2025-11-25
 - [ ] **Learn Web Security**
 - [ ] **Learn Pub/Sub Architecture**
 - [ ] **Learn CI/CD**
