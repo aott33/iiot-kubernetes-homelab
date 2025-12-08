@@ -5,11 +5,11 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 ## Boot.dev Progress (Auto-Updated)
 
 <!-- AUTO_UPDATE_START -->
-**Last Updated:** 2025-12-07
-**Level:** 98 | **Total XP:** 417,367 | **Role:** Mage
+**Last Updated:** 2025-12-08
+**Level:** 99 | **Total XP:** 422,769 | **Role:** Mage
 
-### Track Progress: 58% Complete
-**Completed:** 18/31 courses
+### Track Progress: 61% Complete
+**Completed:** 19/31 courses
 
 ### Course Checklist
 
@@ -36,7 +36,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [ ] **Learn Web Security**
 - [ ] **Learn Pub/Sub Architecture**
 - [ ] **Learn CI/CD**
-- [ ] **Learn Kubernetes**
+- [x] **Learn Kubernetes** (66 lessons, 4,000 XP) - Completed 2025-12-07
 - [ ] **Capstone Project**
 - [ ] **Learn to Find a Job**
 - [ ] **Learn the HTTP Protocol**

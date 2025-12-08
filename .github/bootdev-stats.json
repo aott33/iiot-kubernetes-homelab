@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "18/31 (58%)",
+  "message": "19/31 (61%)",
   "color": "blue",
-  "lastUpdated": "2025-12-07T00:14:49.856111",
+  "lastUpdated": "2025-12-08T00:13:48.279366",
   "profile": {
     "username": "aott33",
-    "level": 98,
-    "xp": 417367,
+    "level": 99,
+    "xp": 422769,
     "role": "Mage"
   },
   "progress": {
-    "coursesCompleted": 18,
+    "coursesCompleted": 19,
     "coursesTotal": 31,
-    "percentageComplete": 58,
+    "percentageComplete": 61,
     "nextCourse": "Build a Blog Aggregator"
   }
 }
