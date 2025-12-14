@@ -5,11 +5,11 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 ## Boot.dev Progress (Auto-Updated)
 
 <!-- AUTO_UPDATE_START -->
-**Last Updated:** 2025-12-13
-**Level:** 99 | **Total XP:** 427,041 | **Role:** Mage
+**Last Updated:** 2025-12-14
+**Level:** 100 | **Total XP:** 432,637 | **Role:** Archmage
 
-### Track Progress: 61% Complete
-**Completed:** 19/31 courses
+### Track Progress: 64% Complete
+**Completed:** 20/31 courses
 
 ### Course Checklist
 
@@ -29,7 +29,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [x] **Learn HTTP Clients** (83 lessons, 4,000 XP) - Completed 2025-11-16
 - [x] **Build a Pokedex** (12 lessons, 4,000 XP) - Completed 2025-12-01
 - [x] **Learn SQL** (124 lessons, 5,000 XP) - Completed 2025-11-24
-- [ ] **Build a Blog Aggregator**
+- [x] **Build a Blog Aggregator** (18 lessons, 4,000 XP) - Completed 2025-12-13
 - [ ] **Learn HTTP Servers**
 - [ ] **Learn File Storage and CDNs**
 - [x] **Learn Docker** (43 lessons, 4,000 XP) - Completed 2025-11-25
@@ -45,7 +45,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [ ] **Learn Data Structures and Algorithms 2**
 - [ ] **Build a Web Scraper**
 
-**Next Course:** Build a Blog Aggregator
+**Next Course:** Learn HTTP Servers
 
 ---
 

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "19/31 (61%)",
+  "message": "20/31 (64%)",
   "color": "blue",
-  "lastUpdated": "2025-12-13T00:12:56.972728",
+  "lastUpdated": "2025-12-14T00:14:43.331237",
   "profile": {
     "username": "aott33",
-    "level": 99,
-    "xp": 427041,
-    "role": "Mage"
+    "level": 100,
+    "xp": 432637,
+    "role": "Archmage"
   },
   "progress": {
-    "coursesCompleted": 19,
+    "coursesCompleted": 20,
     "coursesTotal": 31,
-    "percentageComplete": 61,
-    "nextCourse": "Build a Blog Aggregator"
+    "percentageComplete": 64,
+    "nextCourse": "Learn HTTP Servers"
   }
 }
