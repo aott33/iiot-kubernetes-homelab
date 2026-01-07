@@ -5,8 +5,8 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 ## Boot.dev Progress (Auto-Updated)
 
 <!-- AUTO_UPDATE_START -->
-**Last Updated:** 2026-01-06
-**Level:** 101 | **Total XP:** 441,564 | **Role:** Archmage
+**Last Updated:** 2026-01-07
+**Level:** 101 | **Total XP:** 443,556 | **Role:** Archmage
 
 ### Track Progress: 64% Complete
 **Completed:** 20/31 courses
@@ -16,7 +16,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [x] **Learn Coding Basics** (179 lessons, 8,000 XP) - Completed 2023-11-22
 - [x] **Learn Linux** (66 lessons, 4,000 XP) - Completed 2025-08-29
 - [x] **Learn Git** (75 lessons, 5,000 XP) - Completed 2025-08-30
-- [x] **Build a Bookbot** (15 lessons, 3,000 XP) - Completed 2023-11-25
+- [x] **Build a Bookbot** (12 lessons, 3,000 XP) - Completed 2023-11-25
 - [x] **Learn Object Oriented Programming** (61 lessons, 5,000 XP) - Completed 2023-11-23
 - [x] **Build an Asteroids Game** (19 lessons, 4,000 XP) - Completed 2025-09-01
 - [x] **Learn Functional Programming** (88 lessons, 7,000 XP) - Completed 2023-11-29
