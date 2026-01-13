@@ -306,7 +306,7 @@ def update_readme_badges(profile: Dict, courses_data: List[Dict]):
 
     # Update Courses badge
     content = re.sub(
-        r'\[!\[Boot\.dev Courses\]\(https://img\.shields\.io/badge/Courses-[^)]+\)\]',
+        r'\[!\[Boot\.dev Courses\]\(https://img\.shields\.io/badge/Courses-[^\]]+\)\]',
         f'[![Boot.dev Courses](https://img.shields.io/badge/Courses-{completed_count}%2F{total_courses}%20({percentage}%25)-blue)]',
         content
     )
