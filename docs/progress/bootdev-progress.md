@@ -5,8 +5,8 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 ## Boot.dev Progress (Auto-Updated)
 
 <!-- AUTO_UPDATE_START -->
-**Last Updated:** 2026-01-16
-**Level:** 105 | **Total XP:** 470,551 | **Role:** Archmage
+**Last Updated:** 2026-01-17
+**Level:** 105 | **Total XP:** 471,127 | **Role:** Archmage
 
 ### Track Progress: 70% Complete
 **Completed:** 22/31 courses
@@ -28,7 +28,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [x] **Learn Golang** (188 lessons, 10,000 XP) - Completed 2025-11-12
 - [x] **Learn HTTP Clients** (83 lessons, 4,000 XP) - Completed 2025-11-16
 - [x] **Build a Pokedex** (12 lessons, 4,000 XP) - Completed 2025-12-01
-- [x] **Learn SQL** (124 lessons, 5,000 XP) - Completed 2025-11-24
+- [x] **Learn SQL** (126 lessons, 5,000 XP) - Completed 2025-11-24
 - [x] **Build a Blog Aggregator** (18 lessons, 4,000 XP) - Completed 2025-12-13
 - [x] **Learn HTTP Servers** (69 lessons, 5,000 XP) - Completed 2026-01-08
 - [ ] **Learn File Storage and CDNs**
