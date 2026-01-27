@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "label": "Boot.dev",
-  "message": "22/31 (70%)",
+  "message": "23/31 (74%)",
   "color": "blue",
-  "lastUpdated": "2026-01-26T00:15:10.915692",
+  "lastUpdated": "2026-01-27T00:15:08.787127",
   "profile": {
     "username": "aott33",
-    "level": 105,
-    "xp": 474696,
+    "level": 106,
+    "xp": 482766,
     "role": "Archmage"
   },
   "progress": {
-    "coursesCompleted": 22,
+    "coursesCompleted": 23,
     "coursesTotal": 31,
-    "percentageComplete": 70,
+    "percentageComplete": 74,
     "nextCourse": "Learn File Storage and CDNs"
   }
 }
