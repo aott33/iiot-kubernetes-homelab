@@ -5,11 +5,11 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 ## Boot.dev Progress (Auto-Updated)
 
 <!-- AUTO_UPDATE_START -->
-**Last Updated:** 2026-01-28
-**Level:** 106 | **Total XP:** 485,314 | **Role:** Archmage
+**Last Updated:** 2026-01-29
+**Level:** 108 | **Total XP:** 497,304 | **Role:** Archmage
 
-### Track Progress: 74% Complete
-**Completed:** 23/31 courses
+### Track Progress: 77% Complete
+**Completed:** 24/31 courses
 
 ### Course Checklist
 
@@ -35,7 +35,7 @@ This document tracks my progress through the Boot.dev Backend Developer curricul
 - [x] **Learn Docker** (43 lessons, 4,000 XP) - Completed 2025-11-25
 - [ ] **Learn Web Security**
 - [x] **Learn Pub/Sub Architecture** (49 lessons, 5,000 XP) - Completed 2026-01-26
-- [ ] **Learn CI/CD**
+- [x] **Learn CI/CD** (40 lessons, 2,500 XP) - Completed 2026-01-28
 - [x] **Learn Kubernetes** (66 lessons, 4,000 XP) - Completed 2025-12-07
 - [ ] **Capstone Project**
 - [ ] **Learn to Find a Job**
